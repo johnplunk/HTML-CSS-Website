@@ -11,6 +11,8 @@ body, html {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    width: 100%;
 }
 
 li {
@@ -35,7 +37,8 @@ li {
 
   /* Landing Page Background */
 .background {
-    background-color: teal;
+  background-image: url("landing_bg.jpg");
+  background-size: cover;
 }
 
 /* Box Around Header*/
@@ -51,7 +54,7 @@ li {
 /* Box Around Paragraph */
 .bodyBox {
     background-color: lightgrey;
-    width: 1000px;
+    width: 500px;
     border: 10px solid grey;
     padding: 10px;
     margin: 20px;
@@ -65,6 +68,25 @@ li {
   padding: 10px;
   margin: 20px;
 }
+
+/* Box Around Paragraph on Professional Page */
+.profBodyBox {
+  background-color: lightgrey;
+  width: 600px;
+  border: 10px solid grey;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* Box Around Index Paragraph */
+.indexBodyBox {
+  background-color: lightgrey;
+  width: 500px;
+  border: 10px solid grey;
+  padding: 10px;
+  margin: 20px;
+}
+
 /* Picture Of Me On Index */
 .me {
     max-width:50%;
@@ -73,6 +95,7 @@ li {
     height: 500px;
 }
 
+/* GitHub Picture */
 .github {
     display: block;
     float:right;
@@ -82,4 +105,22 @@ li {
     height:400px;
     background-color: lightgrey;
     border: 10px solid grey;
+}
+
+/* Boy Scout Picture */
+.sss {
+  display: block;
+  float:right;
+  max-width:50%;
+  max-height:50%;
+  width:500px;
+  height:400px;
+  background-color: lightgrey;
+  border: 10px solid grey;
+}
+
+/* Resume On Professional Page */
+.resume {
+  background-color: lightgrey;
+  border: 10px solid grey;
 }
